@@ -1,9 +1,9 @@
 body {
-  border: dashed 1px red;
+  border: dashed 2px red;
   margin: 0;
 }
 .header {
-  border: dashed 1px red;
+  border: dashed 2px red;
   width: 80%;
   margin: auto;
 }
