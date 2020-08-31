@@ -1,15 +1,62 @@
 body {
   border: dashed 2px red;
   margin: 0;
-}
-.header {
-  border: dashed 2px red;
-  width: 80%;
-  margin: auto;
+  width: 100%;
 }
 a {
   font-family: Roboto;
 }
 h1 {
   font-family: PT Serif;
+}
+.wrapper {
+  border: dashed 1px red;
+  width: 80%;
+  margin: auto;
+}
+.header {
+  border: dashed 1px red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  border: dashed 1px red;
+}
+.header-burger {
+  display: none;
+}
+.header-menu {
+  border: dashed 1px red;
+  display: flex;
+  align-items: center;
+}
+.header-menu__link {
+  border: dashed 1px red;
+  padding: 0 13px;
+}
+.header-menu__link:last-child {
+  padding-right: 0;
+}
+.header-menu__link:first-child {
+  padding-left: 0;
+}
+.content {
+  border: dashed 1px red;
+  display: flex;
+}
+.content-information {
+  border: dashed 1px red;
+}
+.content-information__title {
+  border: dashed 1px red;
+}
+.content-information__text {
+  border: dashed 1px red;
+}
+.content-information__button {
+  border: dashed 1px red;
+}
+.content__foto {
+  border: dashed 1px red;
 }
