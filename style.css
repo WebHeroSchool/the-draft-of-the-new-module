@@ -6,7 +6,7 @@ a {
   font-family: Roboto;
 }
 h1 {
-  font-family: pt_serifregular, Arial, Helvetica, Sans-serif;
+  font-family: pt_serif, arial, helvetica, sans-serif;
 }
 .wrapper {
   width: 80%;
@@ -18,9 +18,28 @@ h1 {
   align-items: center;
 }
 .header-logo {
+  padding: 40px 0;
+  padding-left: 44px;
+  position: relative;
 }
 .header-logo__name {
-  font-family: pt_serifregular, Arial, Helvetica, Sans-serif;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+}
+.header-logo__ellipse {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: #0056EC;
+  border-radius: 50%;
+}
+.header-logo__ellipse_light{
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+  opacity: .7;
 }
 .header-burger {
   display: none;
