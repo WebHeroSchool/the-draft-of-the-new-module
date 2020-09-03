@@ -6,7 +6,7 @@ a {
   font-family: Roboto;
 }
 h1 {
-  font-family: pt_serif, Arial, Helvetica, Sans-serif;
+  font-family: pt_serifregular, Arial, Helvetica, Sans-serif;
 }
 .wrapper {
   width: 80%;
@@ -20,7 +20,7 @@ h1 {
 .header-logo {
 }
 .header-logo__name {
-  font-family: pt_serif, Arial, Helvetica, Sans-serif;
+  font-family: pt_serifregular, Arial, Helvetica, Sans-serif;
 }
 .header-burger {
   display: none;
