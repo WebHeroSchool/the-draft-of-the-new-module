@@ -85,7 +85,7 @@ body {
   width: 100%;
 }
 .content {
-  padding: 0 63% 100px 0;
+  padding: 0 60% 100px 0;
   background: top right no-repeat url(img/contentImg.svg);
 }
 .content__title {
