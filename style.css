@@ -2,9 +2,6 @@ body {
   margin: 0;
   width: 100%;
 }
-h1 {
-  font-family: pt_serif, arial, helvetica, sans-serif;
-}
 .wrapper {
   width: 80%;
   margin: auto;
@@ -13,6 +10,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 100px;
 }
 .header-logo {
   padding: 40px 0;
@@ -20,7 +18,7 @@ h1 {
   position: relative;
 }
 .header-logo__name {
-  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  font: bold 24px/32px pt_serif, arial, helvetica, sans-serif;
 }
 .header-logo__ellipse {
   width: 28px;
@@ -48,7 +46,7 @@ h1 {
 .header-menu__link {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px Roboto,arial, helvetica, sans-serif;
+  font: 500 14px/16px Roboto,arial, helvetica, sans-serif;
   color: black;
   text-decoration: none;
 }
@@ -87,15 +85,30 @@ h1 {
   width: 100%;
 }
 .content {
-  display: flex;
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(img/contentImg.svg);
 }
-.content-information {
+.content__title {
+  font: bold 50px/66px pt_serif, arial, helvetica, sans-serif;
+  color: black;
+  margin: 0 0 40px 0;
 }
-.content-information__title {
+.content__title_highligth {
+  background: #ECF3FF;
 }
-.content-information__text {
+.content__text {
+  font: 18px/21px Roboto,arial, helvetica, sans-serif;
+  margin: 0 0 41px 0;
 }
-.content-information__button {
+.content__button {
+  font: 14px/16px Roboto,arial, helvetica, sans-serif;
+  padding: 14px 16px;
+  color: #FFFFFF;
+  background: #0056EC;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: opacity .5s;
 }
-.content__foto {
+.content__button:hover {
+  opacity: .5;
 }
