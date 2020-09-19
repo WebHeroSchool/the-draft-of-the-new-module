@@ -2,9 +2,6 @@ body {
   margin: 0;
   width: 100%;
 }
-h1 {
-  font-family: pt_serif, arial, helvetica, sans-serif;
-}
 .wrapper {
   width: 80%;
   margin: auto;
@@ -13,6 +10,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 206px;
 }
 .header-logo {
   padding: 40px 0;
@@ -20,7 +18,7 @@ h1 {
   position: relative;
 }
 .header-logo__name {
-  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  font: bold 24px/32px pt_serif, arial, helvetica, sans-serif;
 }
 .header-logo__ellipse {
   width: 28px;
@@ -87,15 +85,83 @@ h1 {
   width: 100%;
 }
 .content {
-  display: flex;
+  padding: 0 60% 100px 0;
+  background: top right no-repeat url(img/contentImg.svg);
 }
-.content-information {
+.content__title {
+  font: bold 66px/87px pt_serif, arial, helvetica, sans-serif;
+  color: black;
+  margin: 0 0 40px 0;
 }
-.content-information__title {
+.content__title_highligth {
+  background: #ECF3FF;
 }
-.content-information__text {
+.content__text {
+  font: 500 22px/26px Roboto,arial, helvetica, sans-serif;
+  margin: 0 0 40px 0;
 }
-.content-information__button {
+.content__button {
+  font: 500 18px/21px Roboto,arial, helvetica, sans-serif;
+  padding: 18px 21px;
+  color: #FFFFFF;
+  background: #0056EC;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 2s;
 }
-.content__foto {
+.content__button:hover {
+  background: #ffd22e;
+}
+@media (max-width:1366px) {
+  .header {
+    margin-bottom: 100px;
+  }
+  .header-menu__link {
+    margin-right: 24px;
+    font: 500 14px/16px Roboto,arial, helvetica, sans-serif;
+  }
+  .content__title {
+    font: bold 50px/66px pt_serif, arial, helvetica, sans-serif;
+  }
+  .content__text {
+    font: 500 18px/21px Roboto,arial, helvetica, sans-serif;
+  }
+  .content__button {
+    font: 500 14px/16px Roboto,arial, helvetica, sans-serif;
+    padding: 14px 16px;
+  }
+}
+@media (max-width:930px) {
+  .header-menu {
+    display: none;
+  }
+  .header {
+    margin-bottom: 28px;
+  }
+  .content {
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+    text-align: center;
+  }
+  .content__title {
+    margin-bottom: 44px;
+    font: bold 30px/40px pt_serif, arial, helvetica, sans-serif;
+  }
+  .content__text {
+    margin-bottom: 39px;
+    font: 500 16px/19px Roboto,arial, helvetica, sans-serif;
+  }
+  .header-logo__name {
+    display: none;
+  }
+  .header-burger {
+    display: block;
+  }
+  .header-burger__item {
+    width: 25px;
+    height: 3px;
+    margin-top: 4px;
+    background: #0056EC;
+  }
 }
