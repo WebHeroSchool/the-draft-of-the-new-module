@@ -107,10 +107,10 @@ body {
   background: #0056EC;
   border-radius: 4px;
   text-decoration: none;
-  transition: opacity .5s;
+  transition: background;
 }
 .content__button:hover {
-  opacity: .5;
+  background: #ffd22e;
 }
 @media (max-width:1366px) {
   .header {
