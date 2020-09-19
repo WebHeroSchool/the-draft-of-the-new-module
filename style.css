@@ -107,7 +107,7 @@ body {
   background: #0056EC;
   border-radius: 4px;
   text-decoration: none;
-  transition: background 1s;
+  transition: background 2s;
 }
 .content__button:hover {
   background: #ffd22e;
